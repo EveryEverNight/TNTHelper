@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "tnthelper",
+	"version": "${version}",
+	"name": "TNTHelper",
+	"description": "Allow all the Ownerless TNT using LOOTING3",
+	"authors": [
+		"CFT"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/tnthelper/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.tnthelper.TntHelper"
+		]
+	},
+	"mixins": [
+		"tnthelper.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.4",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
